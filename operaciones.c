@@ -13,7 +13,7 @@ int restar(int a, int b) {
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
-/* Multiplica dos enteros usando el operador (*) */
+/*Una linea funciona de modo que tengamos una linea principal que tenga el codigo que funciona y que al agregar cambios utilicemos ramas paralelas que una vez que tengan un funcionamiento correcto sean integradas a la linea principal */
 int multiplicar(int a, int b) {
     return a * b;/* TODO: implementar */
 }
