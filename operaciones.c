@@ -13,7 +13,7 @@ int restar(const int a, const int b) {
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
-/*Una linea funciona de modo que tengamos una linea principal que tenga el codigo que funciona y que al agregar cambios utilicemos ramas paralelas que una vez que tengan un funcionamiento correcto sean integradas a la linea principal */
+/* Se utiliza una linea de forma de trabajar con ramas paralelas cuando se realiza un cambio y una vez asegurado usar la rama principal donde solo esta lo que funciona  */
 int multiplicar(const int a, const int b) {
     return a * b;/* TODO: implementar */
 }
