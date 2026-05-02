@@ -2,24 +2,24 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(int a, int b) {
+int sumar(const int a, const int b) {
     return a + b;
 }
 
 /* ── restar — ya implementada ────────────────────────────────────────────── */
 
-int restar(int a, int b) {
+int restar(const int a, const int b) {
     return a - b;
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
-/* Multiplica dos enteros usando el operador (*) */
-int multiplicar(int a, int b) {
+/* Se utiliza una linea de forma de trabajar con ramas paralelas cuando se realiza un cambio y una vez asegurado usar la rama principal donde solo esta lo que funciona  */
+int multiplicar(const int a, const int b) {
     return a * b;/* TODO: implementar */
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
-int esPar(int n) {
+int esPar(const int n) {
     return (n % 2) == 0;
 }
